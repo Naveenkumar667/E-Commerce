@@ -58,7 +58,7 @@ export default function Feedback() {
 
   return (
     <div>
-      <h1 style={{ textAlign: 'center', marginBottom: '2rem' }}>We'd Love Your Feedback!</h1>
+      <h1 style={{ textAlign: 'center', marginBottom: '2rem' }}>We&apos;d Love Your Feedback!</h1>
       
       <div className="form-container" style={{ maxWidth: '600px' }}>
         {isSubmitted ? (

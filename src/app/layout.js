@@ -1,6 +1,5 @@
 import './globals.css'
 import ReduxProvider from './components/ReduxProvider'
-import Link from 'next/link'
 
 export const metadata = {
   title: 'E-Commerce Store',
@@ -16,13 +15,13 @@ export default function RootLayout({ children }) {
             <div className="nav-container">
               <h1 className="logo">MangaVerse</h1>
               <div className="nav-links">
-                <Link href="/">Home</Link>
-                <Link href="/about">About</Link>
-                <Link href="/products">Products</Link>
-                <Link href="/cart">Cart</Link>
-                <Link href="/feedback">Feedback</Link>
-                <Link href="/signin">Sign In</LInk>
-                <Link href="/contact">Contact</Link>
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/products">Products</a>
+                <a href="/cart">Cart</a>
+                <a href="/feedback">Feedback</a>
+                <a href="/signin">Sign In</a>
+                <a href="/contact">Contact</a>
               </div>
             </div>
           </nav>
